@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <script src="js/prefixfree.js"></script>
+        <script src="js/modernizr.js"></script>
+        <style>
+            
+            @font-face {
+                    font-family: 'breamcatcherregular';
+                    src: url('fuentes/AnyConv.com__breamcatcher_rg.eot') format('embedded-opentype'),
+         url('fuentes/breamcatcher_rg.woff') format('woff'),
+         url('fuentes/breamcatcher_rg.ttf') format('truetype'),
+         url('fuentes/breamcatcher_rg.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+                
+            }
+            * {
+                font-family: 'breamcatcherregular';
+            }
+            #menu {
+                margin-top: 20px;
+                background-color: #26C4A5;
+                height: 60px;
+                text-align: right;
+                margin-left: 280px;
+                border-radius: 100px;
+            }
+            a {
+                margin-left: 20px;
+                margin-right: 20px;
+                position: relative;
+                top: 13px;
+                text-decoration-line: none;
+                font-size: 30px;
+                color: #fff;
+            }
+            #logo {
+                width: 230px;
+                position: absolute;
+                left: 30px;
+                top: 15px;
+            }
+            #principal {
+                margin-top: -40px;
+                margin-left: 50px;
+                background: url(img/Recurso4.png);
+                background-size: 1800px 600px;
+                background-repeat: no-repeat;
+                height: 600px;
+                text-align: center;
+                border-radius: 10px;
+            }
+            #principal h1 {
+                position: relative;
+                top: 20px;
+                color: #fff;
+                font-size: 90px
+            }
+            #principal p {
+                position: relative;
+                top: 60px;
+                font-size: 38px;
+                text-decoration: #000;
+            }
+            #cont {
+                columns: 3;
+                position: relative;
+                top: -130px;
+                translate: 200px;
+                height: 450px;
+                width: 1600px;
+            }
+            #objetivo {
+                width: 380px;
+                height: 380px;
+                background-color: #f7ffdf;
+                border-radius: 70px;
+                text-align: center;
+                box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+                border: 15px #fbb03b dotted;
+            }
+            #objetivo h1 {
+                font-size: 40px;
+            }
+            #objetivo p {
+                font-size: 30px;
+                margin: 40px;
+                margin-top: 30px;
+                text-align: center;
+            }
+            #mision {
+                width: 380px;
+                height: 380px;
+                background-color: #f7ffdf;
+                border-radius: 70px;
+                text-align: center;
+                box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+                border: 15px #fbb03b dotted;
+            }
+            #mision h1 {
+                font-size: 40px;
+            }
+            #mision p {
+                font-size: 30px;
+                margin: 30px;
+                text-align: center;
+            }
+            #vision {
+                width: 380px;
+                height: 380px;
+                background-color: #f7ffdf;
+                border-radius: 70px;
+                text-align: center;
+                box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+                border: 15px #fbb03b dotted;
+            }
+            #vision h1 {
+                font-size: 40px;
+            }
+            #vision p {
+                font-size: 30px;
+                margin: 30px;
+                text-align: center;
+            }
+            header {
+                width: 1060px;
+                height: 320px;
+                margin: 20px auto;
+                position: relative;
+                top: -100px;
+                overflow: hidden;
+                background: url(img/Recurso\ 25.png);
+                background-repeat: no-repeat;
+                perspective: 300px;
+                perspective-origin: 75% 50%;
+            }
+            #fondo {
+                width: 1060px;
+                height: 320px;
+                background: url(img/Recurso\ 26.png);
+                background-repeat: no-repeat;
+                position: absolute;
+                top: 0;
+                animation: fondo 20s infinite;
+            }
+            @keyframes fondo {
+                0% {opacity: 0;}
+                40% {opacity: 0;}
+                50% {opacity: 1;}
+                90% {opacity: 1;}
+                100% {opacity: 0;}
+            }
+            #footer {
+                background-color: #26C4A5;
+                height: 400px;
+                text-align: center;
+                margin-top: -80px;
+            }
+            #footer p {
+                font-size: 25px;
+                color: #fff;
+                margin-top: 60px;
+            }
+            #footer img{
+                width: 300px;
+                position: relative;
+                left: -600px;
+                top: 150px;
+            }
+            #copy {
+                position: relative;
+                top: -30px;
+                right: 10px;
+                text-align: right;
+                font-size: 22px;
+            }
+            #copy span{
+                color: #fff;
+            }
+            #footer a img {
+                position: relative;
+                left: 500px;
+                top: -115px;
+                width: 40px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div ><img id="logo" src="img/logo_v.png" alt="Logo de PetCare"></div>
+        <div id="menu">
+            <a href="home.html">HOME</a>
+            <a href="servicios.html">SERVICIOS</a>
+            <a href="equipomedico.html">EQUIPO MÉDICO</a>
+            <a href="contacto.html">CONTACTO</a>
+            <a href="testimonios.html">TESTIMONIOS</a>
+        </div>
+        <div id="principal">
+            <h1>BIENVENIDOS</h1>
+            <p>¡Hola, Es un gusto!
+                Nos encanta tenerte aquí y que nos des la confianza sobre el cuidado de tu mascota <br>
+                En nuestra página encuentras toda nuestra información, nuestros servicios, nuestro equipo medico,contacto, etc. <br>
+                Queremos lo mejor para tu mascota y aquí lo encontrarás.</p>
+        </div>
+        <div id="cont">
+        <div id="objetivo">
+            <h1>OBJETIVO</h1>
+            <p>Ayudar a todos nuestros amiguitos con el mayor de los cuidados.
+                <br> <br>
+            Gracias a nuestro equipo de especialistas que brindar mayor comodidad.</p>
+        </div><div id="mision">
+            <h1>MISIÓN</h1>
+            <p>Generar confianza y conciencia sobre cómo ayudamos a sus mascotas.
+                <br><br>
+            Promover la salud de todas las mascotas y reducir la enfermedad o maltrato de algunos animales.</p>
+        </div><div id="vision">
+            <h1>VISIÓN</h1>
+            <p>Mejorar cada día más con nuestros profesionales.
+                <br><br>
+            Llegar a más gente con la calidad de servicios y productos que tenemos a nuestra disposición.</p>
+        </div>
+        </div>
+        <header>
+            <div id="fondo"></div>
+        </header>
+            <div id="footer">
+                <img src="img/Recurso 2.png" alt="Logo PetCare">
+                <p>320 XXX XXXX
+                    <br>
+                    PetcareQxxxxx.com
+                    <br>
+                    Cra 89d #XX-XX
+                </p>
+                <a href=""><img src="img/face.png" alt="Facebook"></a>
+                <a href=""><img src="img/insta.png" alt="Instagram"></a>
+                <a href=""><img src="img/whats.png" alt="Whatsapp"></a>
+                <a href=""><img src="img/x1.png" alt="X"></a>
+            </div>
+            <div id="copy">
+                <span class="nombre y año">PetCare 2024
+                    &copy;Copyright
+                </span>
+                
+            </div>
+    </body>
+</html>

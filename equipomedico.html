@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <script src="js/prefixfree.js"></script>
+        <script src="js/modernizr.js"></script>
+        <style>
+            @font-face {
+                    font-family: 'breamcatcherregular';
+                    src: url('fuentes/AnyConv.com__breamcatcher_rg.eot') format('embedded-opentype'),
+         url('fuentes/breamcatcher_rg.woff') format('woff'),
+         url('fuentes/breamcatcher_rg.ttf') format('truetype'),
+         url('fuentes/breamcatcher_rg.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+                
+            }
+            * {
+                font-family: 'breamcatcherregular';
+            }
+            #menu {
+                margin-top: 20px;
+                background-color: #26C4A5;
+                height: 60px;
+                text-align: right;
+                margin-left: 280px;
+                border-radius: 100px;
+            }
+            a {
+                margin-left: 20px;
+                margin-right: 20px;
+                position: relative;
+                top: 13px;
+                text-decoration-line: none;
+                font-size: 30px;
+                color: #fff;
+            }
+            #logo {
+                width: 230px;
+                position: absolute;
+                left: 30px;
+                top: 15px;
+            }
+            #titulo {
+                background-color: #26C4A5;
+                width: 400px;
+                height: 100px;
+                translate: 750px;
+                text-align: center;
+                border-radius: 40px;
+            }
+            #titulo h1 {
+                color: #fff;
+                font-size: 55px;
+                translate: 0 20px;
+            }
+            header {
+                column-count: 3;
+                width: 1000px;
+                height: 1500px;
+                translate: 460px 100px;
+                
+            }
+            header div {
+                background-color: #f7ffdf;
+                width: 300px;
+                height: 600px;
+                border-radius: 70px;
+                box-shadow: 0 0 10px grey;
+            }
+            header img{
+                margin-left: 30px;
+                margin-top: 20px;
+                
+            }
+            #uno {
+                width: 260px;
+                height: 150px;
+                background-size: cover;
+                position: absolute;
+                right: 50px;
+                top: 10px;
+                z-index: 10;
+                animation: fot 30s infinite ease-in-out;
+            }
+            #unno {
+                width: 260px;
+                height: 150px;
+                background-size: cover;
+                float: left;
+                position: absolute;
+                right: 50px;
+                top: 10px;
+                z-index: 10;
+                animation: fot 30s infinite ease-in-out;
+            }
+            #unnno {
+                width: 260px;
+                height: 150px;
+                background-size: cover;
+                float: left;
+                position: absolute;
+                right: 50px;
+                top: 10px;
+                z-index: 10;
+                animation: fot 30s infinite ease-in-out;
+            }
+            #dos {
+                width: 260px;
+                height: 150px;
+                background-size: cover;
+                float: left;
+                position: absolute;
+                right: 50px;
+                top: 10px;
+                z-index: 10;
+                animation: fot 30s infinite ease-in-out;
+            }
+            #doss {
+                width: 260px;
+                height: 150px;
+                background-size: cover;
+                float: left;
+                position: absolute;
+                right: 50px;
+                top: 10px;
+                z-index: 10;
+                animation: fot 30s infinite ease-in-out;
+            }
+            #dosss {
+                width: 260px;
+                height: 150px;
+                background-size: cover;
+                float: left;
+                position: absolute;
+                right: 50px;
+                top: 10px;
+                z-index: 10;
+                animation: fot 30s infinite ease-in-out;
+            }
+            @keyframes fot {
+                0% {opacity: 0; transform: rotateX(0) rotateZ(0);}
+                25% {opacity: 1;}
+                75% {opacity: 1;}
+                100% {opacity: 0; transform: rotateX(360deg) rotateZ(360deg);}
+            }
+            header p {
+                font-size: 24px;
+                position: relative;
+                top: -280px;
+                text-align: center;
+            }
+            #tex{
+                margin-top: 80px;
+                margin-left: 500px;
+                font-size: 30px;
+                width: 900px;
+                text-align: center;
+            }
+            #footer {
+                margin-top: -30px;
+                background-color: #26C4A5;
+                height: 400px;
+                text-align: center;
+            }
+
+            #footer p {
+                font-size: 25px;
+                color: #fff;
+                margin-top: 60px;
+            }
+            #footer img{
+                width: 300px;
+                position: relative;
+                left: -600px;
+                top: 150px;
+            }
+            #copy {
+                position: relative;
+                top: -30px;
+                right: 10px;
+                text-align: right;
+                font-size: 22px;
+            }
+            #copy span{
+                color: #fff;
+            }
+            #footer a img {
+                position: relative;
+                left: 500px;
+                top: -115px;
+                width: 40px;
+            }
+            #uno{
+                float: left;
+                position: absolute;
+                top: 400px;
+                left: 70px;
+            }
+            #unno{
+                float: left;
+                position: absolute;
+                top: 800px;
+                left: 70px;
+            }
+            #unnno{
+                float: left;
+                position: absolute;
+                top: 1200px;
+                left: 70px;
+            }
+            #dos{
+                
+                position: absolute;
+                top: 400px;
+                right: 90px;
+            }
+            #doss{
+                
+                position: absolute;
+                top: 800px;
+                right: 90px;
+            }
+            #dosss{
+                
+                position: absolute;
+                top: 1200px;
+                right: 90px;
+            }
+        </style>
+    </head>
+    <body>
+        <div ><img id="logo" src="img/logo_v.png" alt="Logo de PetCare"></div>
+        <div id="menu">
+            <a href="home.html">HOME</a>
+            <a href="servicios.html">SERVICIOS</a>
+            <a href="equipomedico.html">EQUIPO MÉDICO</a>
+            <a href="contacto.html">CONTACTO</a>
+            <a href="testimonios.html">TESTIMONIOS</a>
+        </div>
+        <div id="titulo"> 
+            <h1>EQUIPO MÉDICO</h1>
+        </div>
+        <div id="tex">
+            <p>Estos son algunos de nuestros especialistas en las áreas de salud, cuidado y alimentación de tus animales, que buscan brindarle la mayor comodidad y cuidado a tus mascotas.</p>
+        </div>
+        <header>
+            <div>
+                <img src="img/doc1Recurso 5.png" alt="" id="fot"> <br>
+                <img src="img/premioRecurso 23.png" alt="Premio de hueso"> <br> <br>
+                <img src="img/premioRecurso 23.png" alt="Premio de hueso"><br><br>
+                <img src="img/premioRecurso 23.png" alt="Premio de hueso">
+                <p>Miriam Muños</p><br>
+                <p>23 años</p><br>
+                <p>Especialista en <br>Vacunación</p>
+            </div> <br> <br> <br>
+            <div>
+                <img src="img/doc2Recurso 6.png" alt=""><br>
+                <img src="img/premioRecurso 23.png" alt="Premio de hueso"><br><br>
+                <img src="img/premioRecurso 23.png" alt="Premio de hueso"><br><br>
+                <img src="img/premioRecurso 23.png" alt="Premio de hueso">
+                <p>Roberto Musso</p><br>
+                <p>25 años</p><br>
+                <p>Especialista en <br>cuidados</p>
+            </div>
+            <div>
+                <img src="img/doc3Recurso 7.png" alt=""><br>
+                <img src="img/premioRecurso 23.png" alt="Premio de hueso"><br><br>
+                <img src="img/premioRecurso 23.png" alt="Premio de hueso"><br><br>
+                <img src="img/premioRecurso 23.png" alt="Premio de hueso">
+                <p>Karen Sanchez</p><br>
+                <p>32 años</p><br>
+                <p>Especialista en <br> alimentación</p>
+            </div> <br> <br> <br>
+            <div>
+                <img src="img/doc4Recurso 8.png" alt=""><br>
+                <img src="img/premioRecurso 23.png" alt="Premio de hueso"><br><br>
+                <img src="img/premioRecurso 23.png" alt="Premio de hueso"><br><br>
+                <img src="img/premioRecurso 23.png" alt="Premio de hueso">
+                <p>Carlos Galindo</p><br>
+                <p>35 años</p><br>
+                <p>Especialista en <br>cirugias</p>
+            </div> 
+            <div>
+                <img src="img/doc5Recurso 9.png" alt=""><br>
+                <img src="img/premioRecurso 23.png" alt="Premio de hueso"><br><br>
+                <img src="img/premioRecurso 23.png" alt="Premio de hueso"><br><br>
+                <img src="img/premioRecurso 23.png" alt="Premio de hueso"><br>
+                <p>Tatiana Molina</p><br>
+                <p>24 años</p><br>
+                <p>Especialista en <br> cuidado dental</p>
+            </div> <br><br><br>
+            <div>
+                <img src="img/doc6Recurso 10.png" alt="">
+                <img src="img/premioRecurso 23.png" alt="Premio de hueso"><br><br>
+                <img src="img/premioRecurso 23.png" alt="Premio de hueso"><br><br>
+                <img src="img/premioRecurso 23.png" alt="Premio de hueso"><br>
+                <p>Julian Perez</p><br>
+                <p>27 años</p><br>
+                <p>Especialista en <br>estilización</p>
+            </div>
+        </header>
+        <main>
+            <section>
+                <div id="uno">
+                    <img src="img/i3Recurso 13.png" alt="">
+                    
+                </div>
+                <div id="unno">
+                    <img src="img/i12Recurso 22.png" alt="">
+                </div>
+                <div id="unnno">
+                    <img src="img/i9Recurso 19.png" alt="">
+                </div>
+                <div id="dos">
+                    <img src="img/i7Recurso 17.png" alt="">
+                </div>
+                <div id="doss">
+                    <img src="img/i11Recurso 21.png" alt="">
+                </div>
+                <div id="dosss">
+                    <img src="img/i2Recurso 12.png" alt="">
+                </div>
+            </section>
+        </main>
+        <div id="footer">
+            <img src="img/Recurso 2.png" alt="Logo PetCare">
+            <p>320 XXX XXXX
+                <br>
+                PetcareQxxxxx.com
+                <br>
+                Cra 89d #XX-XX
+            </p>
+            <a href=""><img src="img/face.png" alt="Facebook"></a>
+            <a href=""><img src="img/insta.png" alt="Instagram"></a>
+            <a href=""><img src="img/whats.png" alt="Whatsapp"></a>
+            <a href=""><img src="img/x1.png" alt="X"></a>
+        </div>
+        
+        <div id="copy">
+            <span class="nombre y año">PetCare 2024
+                &copy;Copyright
+            </span>
+    </body>
+</html>
